@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Fault_Handling_Basics" WorkspaceName="CE218541.cywrk">
+  <Version>1.10</Version>
+  <Keyword>SYSLIB</Keyword>
+  <Keyword>ARM Cortex Fault Handling</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates the fault handling functionality of the PSoC® 6 family, using the Peripheral Driver Library (PDL) System Library (SysLib). </Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218541_Fault_Handling_Basics.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
