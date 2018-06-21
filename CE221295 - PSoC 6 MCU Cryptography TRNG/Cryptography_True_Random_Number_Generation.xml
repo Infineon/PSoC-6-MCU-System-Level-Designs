@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Cryptography_True_Random_Number_Generation" WorkspaceName="CE221295.cywrk">
+	<Version>1.0</Version>
+	<Keyword>Cryptography</Keyword> 
+	<Keyword>TRNG</Keyword> 
+	<Keyword>True Random Number</Keyword> 
+	<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+	<Description>This code example demonstrates generating a One-Time Password (OTP) using the True
+				Random Number generation feature of PSoC 6 MCU cryptography block..</Description>
+	<DeviceFilter>PSoC 61</DeviceFilter>
+	<DeviceFilter>PSoC 62</DeviceFilter>
+	<DeviceFilter>PSoC 63</DeviceFilter>
+	<Document>CE221295_PSoC_6_MCU_Cryptography_True_Random_Number_Generation.pdf</Document>
+	<MinToolVersion>4.2</MinToolVersion>
+</Project>
