@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220511_PSoC_6_MCU_Cryptography_SHA_Demonstration" WorkspaceName="CE220511.cywrk">
+	<Version>1.10</Version>
+	<Keyword>Cryptography</Keyword> 
+	<Keyword>SHA</Keyword> 
+	<Keyword>Message Digest</Keyword> 
+	<Keyword>Hash Function</Keyword>
+	<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+	<Description>This This code example demonstrates generating a unique hash value or message 
+	digest for an arbitrary message using Secure Hash Algorithm (SHA) in PSoC 6.</Description>
+	<DeviceFilter>PSoC 61</DeviceFilter>
+	<DeviceFilter>PSoC 62</DeviceFilter>
+	<DeviceFilter>PSoC 63</DeviceFilter>
+	<Document>CE220511.pdf</Document>
+	<MinToolVersion>4.2</MinToolVersion>
+</Project>
