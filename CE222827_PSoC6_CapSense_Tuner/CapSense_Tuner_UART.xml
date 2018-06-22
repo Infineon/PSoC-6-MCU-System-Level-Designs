@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CapSense_Tuner_UART" WorkspaceName="CE222827.cywrk">
+<Version>1.10</Version>
+<Keyword>CapSense</Keyword> 
+<Keyword>Manual Tuning</Keyword> 
+<Keyword>Tuner</Keyword> 
+<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+<Description>This example demonstrates how to implement Tuner GUI interface for CapSense® design using UART interfaces in PSoC® 6 MCU devices.</Description>
+<DeviceFilter>PSoC 62</DeviceFilter>
+<DeviceFilter>PSoC 63</DeviceFilter>
+<Document>CE222827_PSoC6_CapSense_Tuner.pdf</Document>
+<MinToolVersion>4.2</MinToolVersion>
+</Project>
