@@ -43,6 +43,38 @@ To use the code examples in this repository, please download and install
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
 ## Code Example List
+#### 1. CE218541 - PSoC 6 MCU Fault-Handling Basics
+This code example demonstrates how to find a fault location using the PDL SysLib and the Arm exception handler. The
+example has three different faults: Arm Cortex M0+ Hard Fault, Cortex M4 Usage Fault, and a Cortex M4 (CM4) Bus Fault.
+The example uses a UART to display information for debugging.
+#### 2. CE218552 – PSoC 6 MCU: UART to Memory Buffer Using DMA
+This example demonstrates how a PSoC 6 DMA channel transfers data received from the UART to a buffer in memory. When
+the buffer is filled, a second DMA channel drains the buffer to the UART, to be transmitted.
+#### 3. CE218553 – PSoC 6 MCU: PWM Triggering a DMA Channel
+This code examples demonstrates how to route trigger signals on a PSoC 6 device. The trigger signal, in this code example, is
+routed from the PWM to the DMA, using PSoC Creator's auto routing feature.
+#### 4. CE219765 – PSoC 6 MCU Event Profiling
+This example uses PSoC 6 MCU profiler block to observe the behavior of the SCB in UART mode. It demonstrates how to use
+the profiler to see the impact that different programming techniques can have on performance. In this case, it shows the
+difference between interrupt-driven code and code that polls the UART driver. 
+#### 5. CE219940 – PSoC 6 MCU Multiple DMA Concatenation
+This example demonstrates the use of multiple concatenated DMA channels to manipulate memory, with no CPU usage. The
+incoming data from the UART is packed into 5-byte packets and stored in a memory array, along with a timestamp from the
+RTC. When four packets of data are stored, they are echoed back to the UART using DMA
+#### 6. CE220465 – PSoC 6 MCU Cryptography:AES Demonstration
+This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit long key. The encrypted
+and decrypted data are displayed on a UART terminal emulator.
+#### 7. CE220511 – PSoC 6 MCU Cryptography:SHA Demonstration
+This code example shows how to generate a 20-byte hash value or message digest for an arbitrary user input message using
+the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU. The example further shows that any change in
+the message results in a unique hash value for the message. The hash value generated for the message is displayed on a
+UART terminal emulator.
+#### 8. CE221295 – PSoC 6 MCU Cryptography:True Random Number Generation
+This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature
+of PSoC 6 MCU cryptography block.
+#### 9. CE222827 – PSoC 6 MCU: CapSense Tuner
+This example demonstrates how to implement Tuner GUI interface for CapSense® design using UART and I2C interfaces in
+PSoC 6 MCU devices.
 
 
 ## References
