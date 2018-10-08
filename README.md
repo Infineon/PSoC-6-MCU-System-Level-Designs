@@ -42,7 +42,7 @@ To use the code examples in this repository, please download and install
 
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
-## Code Example List
+## Code Examples List
 #### 1. CE218541 - PSoC 6 MCU Fault-Handling Basics
 This code example demonstrates how to find a fault location using the PDL SysLib and the Arm exception handler. The
 example has three different faults: Arm Cortex M0+ Hard Fault, Cortex M4 Usage Fault, and a Cortex M4 (CM4) Bus Fault.
